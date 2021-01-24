@@ -22,3 +22,6 @@ hex = "0.4.2"
 env_logger = "0.8.2"
 log = "0.4.11"
 image = "0.23.12"
+lindera = "0.7.1"
+lindera-core = "0.7.1"
+cairo-rs = { version = "0.9.1", features = ["png"] }

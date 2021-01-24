@@ -8,6 +8,7 @@ extern crate zip;
 pub mod xml;
 pub mod analysis;
 pub mod convert;
+pub mod ogp_renderer;
 pub mod parser;
 
 use log::info;
