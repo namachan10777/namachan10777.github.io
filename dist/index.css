@@ -1,0 +1,195 @@
+
+
+.inline-code {
+	color: #000040;
+	background-color: #F0F0F0;
+	margin: 0px 2px 0px 2px;
+	font-family: monospace;
+	padding: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.centering {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sharp {
+	margin-right: 0.2em;
+}
+
+.article-footer {
+	width: 100%;
+}
+
+.next-article {
+	float: right;
+}
+
+.prev-article {
+	float: left;
+}
+
+div.hash {
+	color: #444444;
+	font-family: monospace;
+	font-size: large;
+}
+
+
+.inline-img {
+	display: inline;
+	max-height: 1em;
+}
+
+p{
+	color: #202020;
+	line-height: 180%;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: medium;
+	display: flex;
+	justify-content: center;
+	text-size-adjust: none;
+}
+
+figure {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+div.images {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2vh;
+}
+
+img.landscape {
+	width: 70%;
+}
+
+li.list-elem {
+	margin-top: 0.7rem;
+}
+
+li.articles-elem {
+	margin-top: 0.7rem;
+}
+
+code {
+	font-size: medium;
+	font-family: monospace;
+}
+
+@media screen and (max-aspect-ratio: 3/2) and (max-width: 480px) {
+	.profile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.icon-container {
+		width: 40%;
+	}
+
+	.icon {
+		border-radius: 50%;
+	}
+
+	#root {
+		width: 85%;
+	}
+
+	ul {
+		padding-inline-start: 1.5em;
+	}
+
+	pre {
+		padding: 1vw;
+		border-radius: 0.5%;
+		overflow-x: scroll;
+		background-color: #F0F0F0;
+		color: #0F0F0F;
+	}
+
+	.copyright-container {
+		text-align: center;
+	}
+}
+
+@media screen and (min-aspect-ratio: 3/2) {
+	.profile {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.icon-container {
+		width: 20%;
+		margin-right: 3em;
+	}
+
+	.icon {
+		border-radius: 50%;
+	}
+
+	#root {
+		width: 55%;
+	}
+
+	pre {
+		padding: 1vh;
+		border-radius: 0.5%;
+		overflow-x: scroll;
+		background-color: #F0F0F0;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.profile {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.icon-container {
+		width: 20%;
+		margin-right: 3em;
+	}
+
+	.icon {
+		border-radius: 50%;
+	}
+
+	#root {
+		width: 55%;
+	}
+
+	pre {
+		padding: 1vh;
+		border-radius: 0.5%;
+		overflow-x: scroll;
+		background-color: #F0F0F0;
+	}
+}
+
+.copyright-span {
+	font-size: smaller;
+	color: #505050;
+}
+
+.article-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 6em;
+}
